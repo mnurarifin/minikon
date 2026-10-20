@@ -328,26 +328,93 @@ h6 {
   gap: 16px;
 }
 
-.brand-logo-img {
-  height: 40px;
+.polban-header-link {
+  display: flex;
+  align-items: center;
+  transition: transform var(--transition-fast);
+}
+
+.polban-logo-img {
+  height: 42px;
   width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
+  transition: transform var(--transition-fast);
+}
+
+.polban-header-link:hover .polban-logo-img {
+  transform: scale(1.06);
 }
 
 .brand-divider {
   width: 1px;
-  height: 28px;
-  background: rgba(255, 255, 255, 0.15);
+  height: 30px;
+  background: rgba(255, 255, 255, 0.18);
 }
 
-.polban-badge-img {
-  height: 32px;
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.minikon-emblem-img {
+  height: 38px;
   width: auto;
-  opacity: 0.9;
-  transition: opacity var(--transition-fast);
+  object-fit: contain;
+  transition: transform var(--transition-fast);
+  filter: drop-shadow(0 2px 10px rgba(20, 184, 166, 0.3));
 }
 
-.polban-badge-img:hover {
-  opacity: 1;
+.brand-logo:hover .minikon-emblem-img {
+  transform: scale(1.1) rotate(2deg);
+}
+
+.brand-text {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: baseline;
+}
+
+.brand-text .text-teal {
+  color: var(--primary-light);
+}
+
+.brand-text .brand-domain {
+  color: var(--accent-cyan-light);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* Footer official brand styles */
+.footer-logo-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.footer-polban-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-minikon-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-minikon-img {
+  height: 34px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {

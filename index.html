@@ -52,20 +52,30 @@
     <header class="site-header" id="navbar">
       <div class="container nav-container">
         <div class="brand-wrapper">
-          <a href="#beranda" class="brand-logo" aria-label="MiniKon Home">
+          <a
+            href="https://www.polban.ac.id"
+            target="_blank"
+            class="polban-header-link"
+            title="Politeknik Negeri Bandung (POLBAN)"
+          >
             <img
-              src="assets/images/minikon-logo.svg"
-              alt="MiniKon.id Logo"
-              class="brand-logo-img"
+              src="assets/images/logopolban.png"
+              alt="Logo Politeknik Negeri Bandung (POLBAN)"
+              class="polban-logo-img"
             />
           </a>
           <div class="brand-divider"></div>
-          <img
-            src="assets/images/polban-badge.svg"
-            alt="Kolaborasi POLBAN"
-            class="polban-badge-img"
-            title="Bekerja sama dengan sivitas Politeknik Negeri Bandung"
-          />
+          <a href="#beranda" class="brand-logo" aria-label="MiniKon Home">
+            <img
+              src="assets/images/logominikon-transparent.png"
+              alt="Logo MiniKon.id"
+              class="minikon-emblem-img"
+            />
+            <span class="brand-text"
+              >Mini<span class="text-teal">Kon</span
+              ><span class="brand-domain">.id</span></span
+            >
+          </a>
         </div>
 
         <nav>
@@ -107,8 +117,17 @@
                 <i class="fa-solid fa-microchip"></i> INOVASI CETAK 3D MODULAR
               </span>
               <span class="badge-polban">
-                <i class="fa-solid fa-graduation-cap"></i> KOLABORASI RISET
-                POLBAN
+                <img
+                  src="assets/images/logopolban.png"
+                  alt="POLBAN"
+                  style="
+                    height: 18px;
+                    width: auto;
+                    vertical-align: middle;
+                    margin-right: 6px;
+                  "
+                />
+                KOLABORASI RISET POLBAN
               </span>
             </div>
 
@@ -1924,24 +1943,38 @@
       <div class="container">
         <div class="footer-top">
           <div class="footer-brand">
-            <img
-              src="assets/images/minikon-logo.svg"
-              alt="MiniKon.id"
-              style="height: 38px"
-            />
+            <div class="footer-logo-row">
+              <img
+                src="assets/images/logopolban.png"
+                alt="Logo POLBAN"
+                class="footer-polban-img"
+              />
+              <div class="brand-divider"></div>
+              <div class="footer-minikon-brand">
+                <img
+                  src="assets/images/logominikon-transparent.png"
+                  alt="Logo MiniKon.id"
+                  class="footer-minikon-img"
+                />
+                <span class="brand-text"
+                  >Mini<span class="text-teal">Kon</span
+                  ><span class="brand-domain">.id</span></span
+                >
+              </div>
+            </div>
             <p>
               Solusi inovatif jasa 3D modeling dan cetak 3D alat peraga belajar
               teknik sipil berbasis modul bongkar-pasang yang presisi, ringan,
               dan edukatif.
             </p>
             <div class="footer-polban-credit">
-              <img
-                src="assets/images/polban-badge.svg"
-                alt="POLBAN"
-                style="height: 24px"
-              />
-              <span style="font-size: 0.75rem; color: #94a3b8"
-                >Kolaborasi Akademisi & Riset Terapan POLBAN</span
+              <span style="font-size: 0.78rem; color: #94a3b8"
+                ><i
+                  class="fa-solid fa-graduation-cap"
+                  style="color: var(--primary-light); margin-right: 6px"
+                ></i
+                >Kolaborasi Riset Jurusan Teknik Sipil Politeknik Negeri Bandung
+                (POLBAN)</span
               >
             </div>
           </div>
