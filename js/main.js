@@ -234,7 +234,7 @@ function openProductModal(productId) {
   });
 
   // WhatsApp link generator with pre-filled message
-  const waUrl = `https://wa.me/6282123456789?text=${encodeURIComponent(
+  const waUrl = `https://wa.me/6282260595006?text=${encodeURIComponent(
     `Halo MiniKon.id, saya tertarik untuk memesan atau berkonsultasi mengenai:\n\n*Produk:* ${item.title}\n*Skala:* ${item.scale}\n*Harga Acuan:* ${item.price}\n\nMohon info ketersediaan stok atau jadwal pengerjaan pre-order. Terima kasih!`,
   )}`;
   document.getElementById("modalOrderWaBtn").href = waUrl;
@@ -352,7 +352,7 @@ function sendCalculatedOrderToWA() {
     `• *Estimasi Total:* ${total}\n\n` +
     `Mohon informasi lebih lanjut perihal pemesanan dan mekanisme pengiriman. Terima kasih!`;
 
-  const waUrl = `https://wa.me/6282123456789?text=${encodeURIComponent(message)}`;
+  const waUrl = `https://wa.me/6282260595006?text=${encodeURIComponent(message)}`;
   window.open(waUrl, "_blank");
 }
 
@@ -525,7 +525,7 @@ function handleContactSubmit(e) {
     `• *Catatan/Kebutuhan Khusus:* ${notes}\n\n` +
     `Mohon informasi ketersediaan, penawaran harga resmi, atau diskusi teknis lebih lanjut. Terima kasih!`;
 
-  const waUrl = `https://wa.me/6282123456789?text=${encodeURIComponent(message)}`;
+  const waUrl = `https://wa.me/6282260595006?text=${encodeURIComponent(message)}`;
 
   // Show toast feedback and open WhatsApp in new tab
   showToast("Membuka WhatsApp untuk mengirim pesan...");
